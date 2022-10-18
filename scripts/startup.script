@@ -1,1 +1,1 @@
-load_map("Lord British", coord[1, 1, 0], SOUTH);
+load_map("Lord British", coord[1, 12, 0], SOUTH);
