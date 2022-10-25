@@ -1,3 +1,2 @@
 show_widget("items");
 show_widget("selection");
-give_item("ITEM_0001", 1);

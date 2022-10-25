@@ -3,7 +3,8 @@ function valid_place($ent) begin
 	return $t == TILE;
 end;
 
-$item = widget["items"].element["0001"].item;
+$sel = global.property["selected_item"];
+$item = widget["items"].element["000" + $sel].item;
 if $item != null then
 	$tile = request_entity("valid_place");
 	add_object("bottle-green-01", $tile);
