@@ -1,0 +1,8 @@
+function is_usable($selected) begin
+	$fn = $selected.property["action_use"];
+	return $fn != null;
+end;
+
+$use_target = request_entity("is_usable");
+$scr = $use_target.property["action_use"];
+execute_script($scr, true);

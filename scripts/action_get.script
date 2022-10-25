@@ -1,0 +1,9 @@
+function is_item($selected) begin
+	$item = $selected.property["item"];
+	return $item != null;
+end;
+
+$get_target = request_entity("is_item");
+$item = $get_target.property["item"];
+give_item($item, 1);
+remove_entity($get_target);

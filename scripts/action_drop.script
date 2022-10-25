@@ -1,0 +1,10 @@
+function valid_place($ent) begin
+	$t = $ent.type;
+	return $t == TILE;
+end;
+
+$item = widget["items"].element["0001"].item;
+if $item != null then
+	$tile = request_entity("valid_place");
+	add_object("bottle-green-01", $tile);
+end;

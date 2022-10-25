@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": "ITEM_0001",
+      "name": "Green Bottle",
+      "description": "A green bottle",
+      "tags": [],
+      "stackable": false,
+      "equippable": true,
+      "effects": [{"amount":1,"stat":"attack","type":"stat_boost"}],
+      "object": "bottle-green-01",
+      "tool_item": false,
+      "tool_item_range": -1,
+      "tool_item_script_mode": "global",
+      "tool_item_script": "show_inventory",
+      "droppable": false,
+      "image": "bottle-green.png",
+      "usable": false
+    }
+  ],
+  "localized": false
+}
