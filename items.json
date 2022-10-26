@@ -13,7 +13,7 @@
       "tool_item_range": -1,
       "tool_item_script_mode": "global",
       "tool_item_script": "show_inventory",
-      "droppable": false,
+      "droppable": true,
       "image": "bottle-green.png",
       "usable": false
     }
