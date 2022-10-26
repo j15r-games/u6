@@ -1,5 +1,3 @@
-log_message("wtf");
-
 function is_item($selected) begin
 	$item = $selected.property["item"];
 	return $item != null;

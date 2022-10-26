@@ -1,0 +1,11 @@
+function set_item_selection($index) begin
+	$old_idx = global.property["selected_item"];
+	if $old_idx > 0 then
+		widget["selection"].element["000" + $old_idx].image = "empty.png";
+	end;
+
+	set_global_property("selected_item", $index);
+	widget["selection"].element["000" + $index].image = "selection.png";
+end;
+
+set_item_selection(5);
