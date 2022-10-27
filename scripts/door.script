@@ -1,0 +1,21 @@
+$door = $use_target;
+
+$dir = $door.direction;
+$pos = $door.coord + coord[0, 0, -1]; // z-1 because doors are always 1vx down
+if $dir == NORTH then $pos2 = $pos + coord[0, 1, 0]; end;
+if $dir == SOUTH then $pos2 = $pos + coord[0, -1, 0]; end;
+if $dir == EAST then $pos2 = $pos + coord[-1, 0, 0]; end;
+if $dir == WEST then $pos2 = $pos + coord[1, 0, 0]; end;
+
+$this_tile = tile[$pos.x, $pos.y, $pos.z];
+$that_tile = tile[$pos2.x, $pos2.y, $pos2.z];
+
+if $door.property["open"] == true then
+	set_entity_property($door, "open", false);
+	play_animation($door, "close");
+	modify_navigation($this_tile, $that_tile, NONE);
+else
+	set_entity_property($door, "open", true);
+	play_animation($door, "open");
+	modify_navigation($this_tile, $that_tile, WALK_AND_INTERACT);
+end;

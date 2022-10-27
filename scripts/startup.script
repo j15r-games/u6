@@ -1,2 +1,6 @@
 load_map("Lord British", coord[1, 1, 0], SOUTH);
+
+show_widget("items");
+show_widget("selection");
+
 give_item("ITEM_0001", 1);

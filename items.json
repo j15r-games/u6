@@ -26,6 +26,46 @@
       "object": "bottle-01",
       "image": "bottle-small.png",
       "usable": false
+    },
+    {
+      "id": "ITEM_0003",
+      "name": "Amulet",
+      "description": "Amulet",
+      "tags": [],
+      "stackable": false,
+      "object": "amulet-01",
+      "image": "amulet-01.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0004",
+      "name": "Key",
+      "description": "A key",
+      "tags": [],
+      "stackable": false,
+      "object": "key-01",
+      "image": "key-01.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0005",
+      "name": "Book",
+      "description": "A book",
+      "tags": [],
+      "stackable": false,
+      "object": "book-01",
+      "image": "book-01.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0006",
+      "name": "Grapes",
+      "description": "A bunch of grapes",
+      "tags": [],
+      "stackable": false,
+      "object": "grapes-01",
+      "image": "grapes.png",
+      "usable": false
     }
   ],
   "localized": false
