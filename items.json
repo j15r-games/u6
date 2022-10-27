@@ -6,7 +6,7 @@
       "description": "A green bottle",
       "tags": [],
       "stackable": false,
-      "equippable": true,
+      "equippable": false,
       "effects": [{"amount":1,"stat":"attack","type":"stat_boost"}],
       "object": "bottle-green-01",
       "tool_item": false,
@@ -15,6 +15,16 @@
       "tool_item_script": "show_inventory",
       "droppable": true,
       "image": "bottle-green.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0002",
+      "name": "Small Bottle",
+      "description": "A small bottle",
+      "tags": [],
+      "stackable": false,
+      "object": "bottle-01",
+      "image": "bottle-small.png",
       "usable": false
     }
   ],
