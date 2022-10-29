@@ -1,4 +1,4 @@
-load_map("Lord British", coord[1, 1, 0], SOUTH);
+load_map("castle-british-outside", coord[1, 1, 0], SOUTH);
 
 show_widget("items");
 show_widget("selection");
