@@ -1,0 +1,7 @@
+$ladder = $use_target;
+$map = $ladder.property["target_map"];
+$x = $ladder.property["target_x"];
+$y = $ladder.property["target_y"];
+$z = $ladder.property["target_z"];
+
+load_map($map, coord[$x, $y, $z], NORTH);

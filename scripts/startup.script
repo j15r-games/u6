@@ -1,4 +1,4 @@
-load_map("castle-british-outside", coord[0, 11, 0], NORTH);
+load_map("castle-british-outside", coord[0, 6, 0], NORTH);
 
 show_widget("items");
 show_widget("selection");
