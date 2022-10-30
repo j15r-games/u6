@@ -1,6 +1,3 @@
-load_map("castle-british-outside", coord[0, 6, 0], NORTH);
-
+load_map("castle-british-level0", coord[1, 6, 0], NORTH);
 show_widget("items");
 show_widget("selection");
-
-give_item("ITEM_0001", 1);

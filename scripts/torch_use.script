@@ -1,8 +1,0 @@
-$torch = $use_target;
-if $torch.property["lit"] == true then
-	set_entity_property($torch, "lit", false);
-	play_animation($torch, "extinguish");
-else
-	set_entity_property($torch, "lit", true);
-	play_animation($torch, "light");
-end;

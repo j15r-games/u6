@@ -1,0 +1,12 @@
+$chest = $use_target;
+
+// TODO: lock, magic-lock
+if $chest.property["open"] == true then
+	set_entity_property($chest, "open", false);
+	play_animation($chest, "close");
+	disable_container("chest01");
+else
+	set_entity_property($chest, "open", true);
+	play_animation($chest, "open");
+	enable_container("chest01");
+end;

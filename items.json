@@ -1,6 +1,86 @@
 {
   "items": [
     {
+      "id": "ITEM_0003",
+      "name": "Amulet",
+      "description": "Amulet",
+      "tags": [],
+      "stackable": false,
+      "object": "amulet-01",
+      "image": "amulet-01.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0015",
+      "name": "Black Potion",
+      "description": "A black potion",
+      "tags": [],
+      "stackable": false,
+      "object": "potion-black-01",
+      "image": "potion-black.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0008",
+      "name": "Blue Bottle",
+      "description": "A blue bottle",
+      "tags": [],
+      "stackable": false,
+      "object": "bottle-blue-01",
+      "image": "bottle-blue.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0009",
+      "name": "Blue Potion",
+      "description": "A blue potion",
+      "tags": [],
+      "stackable": false,
+      "object": "potion-blue-01",
+      "image": "potion-blue.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0005",
+      "name": "Book",
+      "description": "A book",
+      "tags": [],
+      "stackable": false,
+      "object": "book-01",
+      "image": "book-01.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0007",
+      "name": "Candelabra",
+      "description": "A candelabra",
+      "tags": [],
+      "stackable": false,
+      "object": "candelabra-01",
+      "image": "candelabra.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0017",
+      "name": "Candle",
+      "description": "A candle",
+      "tags": [],
+      "stackable": false,
+      "object": "candle-01",
+      "image": "candle.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0006",
+      "name": "Grapes",
+      "description": "A bunch of grapes",
+      "tags": [],
+      "stackable": false,
+      "object": "grapes-01",
+      "image": "grapes.png",
+      "usable": false
+    },
+    {
       "id": "ITEM_0001",
       "name": "Green Bottle",
       "description": "A green bottle",
@@ -18,23 +98,13 @@
       "usable": false
     },
     {
-      "id": "ITEM_0002",
-      "name": "Small Bottle",
-      "description": "A small bottle",
+      "id": "ITEM_0012",
+      "name": "Green Potion",
+      "description": "A green potion",
       "tags": [],
       "stackable": false,
-      "object": "bottle-01",
-      "image": "bottle-small.png",
-      "usable": false
-    },
-    {
-      "id": "ITEM_0003",
-      "name": "Amulet",
-      "description": "Amulet",
-      "tags": [],
-      "stackable": false,
-      "object": "amulet-01",
-      "image": "amulet-01.png",
+      "object": "potion-green-01",
+      "image": "potion-green.png",
       "usable": false
     },
     {
@@ -48,23 +118,92 @@
       "usable": false
     },
     {
-      "id": "ITEM_0005",
-      "name": "Book",
-      "description": "A book",
+      "id": "ITEM_0010",
+      "name": "Orange Potion",
+      "description": "An orange potion",
       "tags": [],
       "stackable": false,
-      "object": "book-01",
-      "image": "book-01.png",
+      "object": "potion-orange-01",
+      "image": "potion-orange.png",
       "usable": false
     },
     {
-      "id": "ITEM_0006",
-      "name": "Grapes",
-      "description": "A bunch of grapes",
+      "id": "ITEM_0011",
+      "name": "Purple Potion",
+      "description": "A purple potion",
       "tags": [],
       "stackable": false,
-      "object": "grapes-01",
-      "image": "grapes.png",
+      "object": "potion-purple-01",
+      "image": "potion-purple.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0013",
+      "name": "Red Potion",
+      "description": "A red potion",
+      "tags": [],
+      "stackable": false,
+      "object": "potion-red-01",
+      "image": "potion-red.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0002",
+      "name": "Small Bottle",
+      "description": "A small bottle",
+      "tags": [],
+      "stackable": false,
+      "object": "bottle-01",
+      "image": "bottle-small.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0018",
+      "name": "Torch",
+      "description": "A torch",
+      "tags": [],
+      "stackable": false,
+      "object": "torch-01",
+      "image": "torch.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0016",
+      "name": "White Potion",
+      "description": "A white potion",
+      "tags": [],
+      "stackable": false,
+      "image": "potion-white.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0014",
+      "name": "Yellow Potion",
+      "description": "A yellow potion",
+      "tags": [],
+      "stackable": false,
+      "object": "potion-yellow",
+      "image": "potion-yellow.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0019",
+      "name": "Gold Ring",
+      "description": "A golden ring",
+      "tags": [],
+      "stackable": false,
+      "object": "ring-gold-01",
+      "image": "ring-gold.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0020",
+      "name": "Goblet",
+      "description": "A drinking goblet",
+      "tags": [],
+      "stackable": false,
+      "object": "goblet-01",
+      "image": "goblet-01.png",
       "usable": false
     }
   ],

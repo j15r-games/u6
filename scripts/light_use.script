@@ -1,0 +1,8 @@
+$light = $use_target;
+if $light.property["lit"] == true then
+	set_entity_property($light, "lit", false);
+	play_animation($light, "extinguish");
+else
+	set_entity_property($light, "lit", true);
+	play_animation($light, "light");
+end;
