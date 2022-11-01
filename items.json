@@ -86,7 +86,12 @@
       "description": "A golden ring",
       "tags": [],
       "stackable": false,
+      "equippable": true,
+      "effects": [{"amount":2,"stat":"defense","type":"stat_boost"}],
       "object": "ring-gold-01",
+      "tool_item": true,
+      "tool_item_range": 1,
+      "tool_item_script_mode": "entity",
       "image": "ring-gold.png",
       "usable": false
     },
@@ -178,6 +183,22 @@
       "usable": false
     },
     {
+      "id": "ITEM_0021",
+      "name": "Sword",
+      "description": "A sword",
+      "tags": ["weapon"],
+      "stackable": false,
+      "equippable": true,
+      "effects": [{"amount":1,"stat":"attack","type":"stat_boost"}],
+      "weapon": true,
+      "weapon_type": "melee",
+      "weapon_min_damage": 1,
+      "weapon_max_damage": 4,
+      "object": "sword-01",
+      "image": "sword.png",
+      "usable": false
+    },
+    {
       "id": "ITEM_0018",
       "name": "Torch",
       "description": "A torch",
@@ -204,22 +225,6 @@
       "stackable": false,
       "object": "potion-yellow",
       "image": "potion-yellow.png",
-      "usable": false
-    },
-    {
-      "id": "ITEM_0021",
-      "name": "Sword",
-      "description": "A sword",
-      "tags": [],
-      "stackable": false,
-      "equippable": true,
-      "effects": [{"amount":1,"stat":"attack","type":"stat_boost"}],
-      "weapon": true,
-      "weapon_type": "melee",
-      "weapon_min_damage": 1,
-      "weapon_max_damage": 4,
-      "object": "sword-01",
-      "image": "sword.png",
       "usable": false
     }
   ],
