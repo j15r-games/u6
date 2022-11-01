@@ -71,6 +71,26 @@
       "usable": false
     },
     {
+      "id": "ITEM_0020",
+      "name": "Goblet",
+      "description": "A drinking goblet",
+      "tags": [],
+      "stackable": false,
+      "object": "goblet-01",
+      "image": "goblet-01.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0019",
+      "name": "Gold Ring",
+      "description": "A golden ring",
+      "tags": [],
+      "stackable": false,
+      "object": "ring-gold-01",
+      "image": "ring-gold.png",
+      "usable": false
+    },
+    {
       "id": "ITEM_0006",
       "name": "Grapes",
       "description": "A bunch of grapes",
@@ -187,23 +207,19 @@
       "usable": false
     },
     {
-      "id": "ITEM_0019",
-      "name": "Gold Ring",
-      "description": "A golden ring",
+      "id": "ITEM_0021",
+      "name": "Sword",
+      "description": "A sword",
       "tags": [],
       "stackable": false,
-      "object": "ring-gold-01",
-      "image": "ring-gold.png",
-      "usable": false
-    },
-    {
-      "id": "ITEM_0020",
-      "name": "Goblet",
-      "description": "A drinking goblet",
-      "tags": [],
-      "stackable": false,
-      "object": "goblet-01",
-      "image": "goblet-01.png",
+      "equippable": true,
+      "effects": [{"amount":1,"stat":"attack","type":"stat_boost"}],
+      "weapon": true,
+      "weapon_type": "melee",
+      "weapon_min_damage": 1,
+      "weapon_max_damage": 4,
+      "object": "sword-01",
+      "image": "sword.png",
       "usable": false
     }
   ],
