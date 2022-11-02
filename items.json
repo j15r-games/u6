@@ -226,6 +226,18 @@
       "object": "potion-yellow",
       "image": "potion-yellow.png",
       "usable": false
+    },
+    {
+      "id": "ITEM_0022",
+      "name": "Iron Shield",
+      "description": "An iron shield",
+      "tags": [],
+      "stackable": false,
+      "equippable": true,
+      "effects": [{"amount":2,"stat":"defense","type":"stat_boost"}],
+      "object": "shield-iron-01",
+      "image": "shield-iron.png",
+      "usable": false
     }
   ],
   "localized": false
